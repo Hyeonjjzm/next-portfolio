@@ -8,7 +8,7 @@ export default function Animation(){
             loop
             animationData={lottiejson}
             play
-            style={{width : 150, height : 150}}
+
         />
     )
 }
