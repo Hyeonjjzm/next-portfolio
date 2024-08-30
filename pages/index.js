@@ -2,11 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Laydout from "@/compodent/layout";
+import Layout from "@/components/layout";
 
 export default function Home() {
   return (
-    <Laydout>
+    <Layout>
       <Head>
         <title>황현준 포트폴리오</title>
         <meta name="description" content="현준의 포트폴리오" />
@@ -15,6 +15,6 @@ export default function Home() {
       </Head>
 
       <h1>황현준의 포트폴리오</h1>
-    </Laydout>
+    </Layout>
   );
 }
