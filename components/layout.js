@@ -6,7 +6,7 @@ export default function Laydout({children}){
     return(
         <>
         <Header></Header>
-        <Container fixed>
+        <Container fixed style={{margin:"20vh"}}>
         <div>{children}</div>
         </Container>
         <Footer></Footer>
