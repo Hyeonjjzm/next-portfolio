@@ -35,14 +35,9 @@ export default function ProjectItem({data}) {
 
     const workDay = countWorkDays(start, end)
     return (
-            <Card sx={{width : 345}}>
-                <CardMedia
-                    sx={{height : 300}}
-                    image= {imgSrc}
-                    title = {title}
-
-                />
-                <CardContent>
+            <Card sx={{width : 345, display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+                <CardMedia sx={{height : 300}} image= {imgSrc} title = {title} />
+                <CardContent sx={{ flextGrow : 1}}>
                     <Typography gutterBottom variant="h5" component="div">
                         {title}
                     </Typography>
