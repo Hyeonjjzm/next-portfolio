@@ -61,7 +61,7 @@ export default function ProjectItem({data}) {
                 </CardContent>
                 <CardActions>
                     {demo && 
-                    (<Button size="small" onClick={()=>{router.push(demo)}}>Visit Github</Button>)} 
+                    (<Button size="small" onClick={()=>{router.push(demo)}}>Visit Demo</Button>)} 
                     <Button size="small" onClick={()=>{router.push(github)}}>Visit Github</Button>
                 </CardActions>
             </Card>
