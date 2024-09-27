@@ -13,11 +13,8 @@ export default function ProjectItem({data}) {
     const end = data.properties?.작업기간.date.end;
     const description = data.properties?.설명.rich_text[0].plain_text;
     const github = data.properties?.Github.url;
-    const imgSrc = data.cover.file?.url || data.cover.external.url;
     const demo = data.properties?.Demo.url;
     const imgUrl = data.properties?.Image.url;
-
-    console.log(demo);
 
     const router = useRouter();
 
